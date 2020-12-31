@@ -20,19 +20,16 @@ DB_PASSWORD=yourpass
 
 2. abrir o cmd na raiz do projeto
 
-3. Para executar criar as tabelas no banco de dados usamos o migration:
-``` $ php artisan migrate ``` 
-
-4. Para regenerar corretamente as classes e seus componentes:
+3. Para regenerar corretamente as classes e seus componentes:
 ``` $ composer dump-autoload ``` 
+
+4. Para executar criar as tabelas no banco de dados usamos o migration:
+``` $ php artisan migrate ``` 
 
 5.  Para popular o banco de dados executamos o seeder:
 ``` $ php artisan db:seed ```
 
 6. iniciar o laravel com:
 ``` $ php artisan serve ```
-
-7. inicializar o react com outro cmd na raiz
-``` $ npm run dev ```
 
 O aplicativo(local) irá executar em http://127.0.0.1:8000
